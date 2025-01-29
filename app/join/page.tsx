@@ -110,7 +110,7 @@ export default function JoinPage() {
                     <CardContent className="space-y-6">
                         {!activeStream ? (
                             <div className="space-y-4">
-                                <Input placeholder="Enter room code" value={roomId} onChange={(e) => setRoomId(e.target.value)} disabled={isConnecting} />
+                                <Input placeholder="Enter code" value={roomId} onChange={(e) => setRoomId(e.target.value)} disabled={isConnecting} />
                                 <Button className="w-full" onClick={() => joinRoom()} disabled={isConnecting || !roomId.trim()}>
                                     {isConnecting ? "Connecting..." : "Join Room"}
                                 </Button>
