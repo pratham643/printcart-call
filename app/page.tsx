@@ -18,14 +18,14 @@ export default function Home() {
                         <CardHeader>
                             <CardTitle className="flex items-center gap-2">
                                 <Users className="h-6 w-6" />
-                                Join a Room
+                                Connect With GD
                             </CardTitle>
-                            <CardDescription>Enter a room code to view someone's screen</CardDescription>
+                            <CardDescription>Enter a code provided by GD</CardDescription>
                         </CardHeader>
                         <CardContent>
                             <Link href="/join">
                                 <Button variant="outline" className="w-full">
-                                    Join Room
+                                    Join 
                                 </Button>
                             </Link>
                         </CardContent>
