@@ -97,20 +97,15 @@ export default function JoinPage() {
     return (
         <div className="py-8 px-4">
             <div className="max-w-2xl mx-auto space-y-8">
-                <Button variant="outline" asChild>
-                    <Link href="/" className="flex items-center gap-2">
-                        <ArrowLeft className="h-4 w-4" />
-                        Back to Home
-                    </Link>
-                </Button>
+              
 
                 <Card>
                     <CardHeader>
                         <CardTitle className="flex items-center gap-2">
                             <Users className="h-6 w-6" />
-                            Join a Room
+                           Connect With GD
                         </CardTitle>
-                        <CardDescription>Enter the room code to join and view the shared screen</CardDescription>
+                        <CardDescription>Enter the code provided by graphic Designer.</CardDescription>
                     </CardHeader>
                     <CardContent className="space-y-6">
                         {!activeStream ? (
